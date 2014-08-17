@@ -11,6 +11,7 @@ public:
 	bool push(E item);
 	E pop(void);
 	inline int numElements(void);
+	inline int maxElements(void);
 
 protected:
 	E *data;
